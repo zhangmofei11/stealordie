@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steal Or Die - Complete Stealth Game Guide</title>
+    <meta name="description" content="Your ultimate guide to Steal Or Die on Roblox. Role strategies, items, and stealth tips.">
+    <meta name="keywords" content="Steal Or Die, Roblox, stealth game, guide">
+    <link rel="canonical" href="https://stealordie.site/">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Nosifer&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        stealth: { purple: '#9333EA', dark: '#1a1a2e', red: '#DC2626', green: '#22C55E', gold: '#F59E0B' }
+                    },
+                    fontFamily: { 'horror': ['Nosifer', 'cursive'], 'sans': ['Inter', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+    <style>
+        * { box-sizing: border-box; }
+        body { background: linear-gradient(180deg, #1a1a2e 0%, #16213e 50%, #1a1a2e 100%); min-height: 100vh; font-family: 'Inter', sans-serif; }
+        .card-stealth { background: linear-gradient(135deg, rgba(30,30,60,0.95) 0%, rgba(22,33,62,0.98) 100%); border: 1px solid rgba(147,51,234,0.3); }
+        .card-stealth:hover { border-color: rgba(147,51,234,0.6); transform: translateY(-2px); }
+        .text-stealth-purple { color: #9333EA; }
+        .text-stealth-red { color: #DC2626; }
+        .glow-purple { box-shadow: 0 0 20px rgba(147,51,234,0.4); }
+        .divider { height: 2px; background: linear-gradient(90deg, transparent, #9333EA, #DC2626, #9333EA, transparent); }
+        .scanline { position: fixed; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; background: repeating-linear-gradient(0deg, rgba(0,0,0,0.03) 0px, rgba(0,0,0,0.03) 1px, transparent 1px, transparent 2px); z-index: 9999; }
+    </style>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QSV9HMT98E"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-QSV9HMT98E');
+    </script>
+</head>
+<body class="text-gray-300 antialiased">
+    <div class="scanline"></div>
+
+    <header class="card-stealth sticky top-0 z-50 border-b border-stealth-purple/20">
+        <div class="max-w-6xl mx-auto px-8 py-5">
+            <div class="flex items-center justify-between">
+                <a href="/" class="flex items-center gap-4 group">
+                    <div class="w-14 h-14 rounded-lg bg-gradient-to-br from-stealth-purple to-stealth-dark flex items-center justify-center shadow-lg glow-purple">
+                        <span class="text-3xl">🥷</span>
+                    </div>
+                    <div>
+                        <span class="font-horror text-xl text-white tracking-wide">STEAL OR DIE</span>
+                        <span class="block text-xs text-stealth-purple tracking-widest">ROBLOX STEALTH</span>
+                    </div>
+                </a>
+                <nav class="hidden lg:flex items-center gap-2">
+                    <a href="/" class="px-4 py-2 text-stealth-purple bg-stealth-purple/10 rounded-lg border border-stealth-purple/30 font-medium">Home</a>
+                    <a href="roles.html" class="px-4 py-2 text-gray-300 hover:text-stealth-purple hover:bg-stealth-purple/5 rounded-lg transition-all">Roles</a>
+                    <a href="items.html" class="px-4 py-2 text-gray-300 hover:text-stealth-purple hover:bg-stealth-purple/5 rounded-lg transition-all">Items</a>
+                    <a href="tips.html" class="px-4 py-2 text-gray-300 hover:text-stealth-purple hover:bg-stealth-purple/5 rounded-lg transition-all">Tips</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-8 py-16">
+        <!-- Hero Section -->
+        <section class="text-center mb-16">
+            <div class="inline-block mb-6 px-4 py-2 rounded-full border border-stealth-purple/30 bg-stealth-purple/10">
+                <span class="text-stealth-purple font-medium tracking-wider text-sm">CULT'S PROJECT STORAGE • STEALTH GAME</span>
+            </div>
+            <h1 class="text-5xl md:text-6xl font-black text-white mb-6 tracking-tight">
+                STEAL OR <span class="text-stealth-red">DIE</span>
+            </h1>
+            <p class="text-gray-400 text-lg max-w-2xl mx-auto mb-10 leading-relaxed">
+                Stealth hide-and-seek on Roblox! Sneak past hunters, steal items, and escape. Up to 16 players per match!
+            </p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="roles.html" class="px-10 py-4 bg-stealth-purple text-white font-bold rounded-lg hover:bg-purple-700 transition-all shadow-lg">
+                    View Roles
+                </a>
+                <a href="tips.html" class="px-10 py-4 border-2 border-stealth-purple text-stealth-purple font-bold rounded-lg hover:bg-stealth-purple/10 transition-all">
+                    Stealth Tips
+                </a>
+            </div>
+        </section>
+
+        <!-- Divider -->
+        <div class="divider mb-16"></div>
+
+        <!-- Stats Grid -->
+        <section class="grid grid-cols-2 md:grid-cols-4 gap-6 mb-16">
+            <div class="card-stealth rounded-xl p-6 text-center transition-all">
+                <div class="text-4xl mb-3">🥷</div>
+                <div class="text-3xl font-bold text-stealth-purple mb-1">2</div>
+                <div class="text-gray-500 text-sm">Teams</div>
+            </div>
+            <div class="card-stealth rounded-xl p-6 text-center transition-all">
+                <div class="text-4xl mb-3">👥</div>
+                <div class="text-3xl font-bold text-stealth-purple mb-1">16</div>
+                <div class="text-gray-500 text-sm">Players</div>
+            </div>
+            <div class="card-stealth rounded-xl p-6 text-center transition-all">
+                <div class="text-4xl mb-3">💰</div>
+                <div class="text-3xl font-bold text-stealth-purple mb-1">∞</div>
+                <div class="text-gray-500 text-sm">Items</div>
+            </div>
+            <div class="card-stealth rounded-xl p-6 text-center transition-all">
+                <div class="text-4xl mb-3">🎮</div>
+                <div class="text-3xl font-bold text-stealth-purple mb-1">PC/Mobile</div>
+                <div class="text-gray-500 text-sm">Platform</div>
+            </div>
+        </section>
+
+        <!-- Game Features -->
+        <section class="mb-12">
+            <h2 class="text-3xl font-bold text-white mb-8 text-center">HOW TO PLAY</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="card-stealth rounded-xl p-6 transition-all">
+                    <div class="w-12 h-12 rounded-lg bg-stealth-purple/20 flex items-center justify-center mb-4">
+                        <span class="text-2xl">🥷</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2">Choose Your Role</h3>
+                    <p class="text-gray-400 text-sm">Play as a Thief hiding among NPCs, or a Hunter searching for real players.</p>
+                </div>
+                <div class="card-stealth rounded-xl p-6 transition-all">
+                    <div class="w-12 h-12 rounded-lg bg-stealth-purple/20 flex items-center justify-center mb-4">
+                        <span class="text-2xl">👥</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2">Blend In</h3>
+                    <p class="text-gray-400 text-sm">Hide among NPCs to avoid detection. Act like a bot to stay hidden!</p>
+                </div>
+                <div class="card-stealth rounded-xl p-6 transition-all">
+                    <div class="w-12 h-12 rounded-lg bg-stealth-purple/20 flex items-center justify-center mb-4">
+                        <span class="text-2xl">💎</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2">Steal Items</h3>
+                    <p class="text-gray-400 text-sm">Grab valuable items from the map and make your escape.</p>
+                </div>
+                <div class="card-stealth rounded-xl p-6 transition-all">
+                    <div class="w-12 h-12 rounded-lg bg-stealth-red/20 flex items-center justify-center mb-4">
+                        <span class="text-2xl">🔍</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2">Find Players</h3>
+                    <p class="text-gray-400 text-sm">As Hunter, search the crowd and identify the real players.</p>
+                </div>
+                <div class="card-stealth rounded-xl p-6 transition-all">
+                    <div class="w-12 h-12 rounded-lg bg-stealth-green/20 flex items-center justify-center mb-4">
+                        <span class="text-2xl">🏃</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2">Escape</h3>
+                    <p class="text-gray-400 text-sm">Get the item to the escape zone and win the round.</p>
+                </div>
+                <div class="card-stealth rounded-xl p-6 transition-all">
+                    <div class="w-12 h-12 rounded-lg bg-stealth-gold/20 flex items-center justify-center mb-4">
+                        <span class="text-2xl">💰</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2">Earn Coins</h3>
+                    <p class="text-gray-400 text-sm">Successful steals earn gold to unlock new abilities and skins.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quick Navigation -->
+        <section class="mb-12">
+            <h2 class="text-3xl font-bold text-white mb-8 text-center">GUIDE SECTIONS</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <a href="roles.html" class="card-stealth rounded-xl p-6 group transition-all">
+                    <div class="flex items-center gap-4">
+                        <div class="w-16 h-16 rounded-lg bg-stealth-purple/20 flex items-center justify-center group-hover:bg-stealth-purple/30 transition-colors">
+                            <span class="text-3xl">🎭</span>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-white mb-1">Role Guide</h3>
+                            <p class="text-gray-500 text-sm">Thief vs Hunter</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="items.html" class="card-stealth rounded-xl p-6 group transition-all">
+                    <div class="flex items-center gap-4">
+                        <div class="w-16 h-16 rounded-lg bg-stealth-purple/20 flex items-center justify-center group-hover:bg-stealth-purple/30 transition-colors">
+                            <span class="text-3xl">💎</span>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-white mb-1">Items</h3>
+                            <p class="text-gray-500 text-sm">Tools and skills</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="tips.html" class="card-stealth rounded-xl p-6 group transition-all">
+                    <div class="flex items-center gap-4">
+                        <div class="w-16 h-16 rounded-lg bg-stealth-purple/20 flex items-center justify-center group-hover:bg-stealth-purple/30 transition-colors">
+                            <span class="text-3xl">💡</span>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-white mb-1">Tips</h3>
+                            <p class="text-gray-500 text-sm">Stealth strategies</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="mb-12">
+            <h2 class="text-3xl font-bold text-white mb-8 text-center">ABOUT THE GAME</h2>
+            <div class="card-stealth rounded-2xl p-8">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div>
+                        <h3 class="text-xl font-bold text-stealth-purple mb-3">THE EXPERIENCE</h3>
+                        <p class="text-gray-400 leading-relaxed">
+                            Steal Or Die is a stealth-based hide-and-seek game on Roblox. Thieves must blend in with NPCs while stealing items, while Hunters try to identify and eliminate the real players.
+                        </p>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold text-stealth-purple mb-3">KEY FEATURES</h3>
+                        <ul class="text-gray-400 space-y-2">
+                            <li>• Two team gameplay: Thieves vs Hunters</li>
+                            <li>• Up to 16 players per match</li>
+                            <li>• Stealth mechanics and item collection</li>
+                            <li>• Unlockable skills and cosmetics</li>
+                            <li>• Multiple maps and game modes</li>
+                            <li>• Cross-platform play</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="border-t border-stealth-purple/10 py-12 mt-8">
+        <div class="max-w-6xl mx-auto px-8 text-center">
+            <div class="divider mb-8"></div>
+            <p class="text-gray-500 text-sm">&copy; 2026 Steal Or Die Guide. Not affiliated with Roblox Corporation.</p>
+            <p class="mt-2">
+                <a href="/about.html" class="text-stealth-purple/60 hover:text-stealth-purple">About</a> |
+                <a href="/privacy-policy.html" class="text-stealth-purple/60 hover:text-stealth-purple">Privacy Policy</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
