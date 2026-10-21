@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://stealordie.site/sitemap.xml
